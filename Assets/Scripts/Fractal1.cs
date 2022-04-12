@@ -76,10 +76,19 @@ public class Fractal1 : MonoBehaviour
             dir++;
         }
 
+
+
+
+
+
+
+
+
+
         for (int i = 0; i < transform.childCount; i++)
         {
 
-            transform.GetChild(i).localRotation *= Quaternion.Euler(0, _rotationSpeed * Time.deltaTime,0);
+          //  transform.GetChild(i).localRotation *= Quaternion.Euler(0, _rotationSpeed * Time.deltaTime,0);
           //  transform.GetChild(i).localRotation = transform.GetChild(i).localRotation * transform.GetChild(Mathf.RoundToInt((i - 1) / 5)).localRotation * (Quaternion.Euler(0, _rotationSpeed * Time.deltaTime, 0));
         }   
     }

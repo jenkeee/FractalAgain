@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 603973635}
   - component: {fileID: 603973634}
+  - component: {fileID: 603973636}
   m_Layer: 0
   m_Name: Wrapper
   m_TagString: Untagged
@@ -147,7 +148,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 603973633}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e646814cac5edf84d88a93ae8f22f6c5, type: 3}
   m_Name: 
@@ -170,6 +171,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &603973636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 603973633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bec9a69088404041a17ecffb2014a19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _depth: 4
+  _rotationSpeed: 41
+  mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+  material: {fileID: 2100000, guid: 93f9f1c313edab841a8cd43bb53899c0, type: 2}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0

@@ -15,7 +15,7 @@ public struct PositionJob : IJobParallelFor
     {
         for (int i = 0; i < 5; i++)
         {
-                   //   NewPosition[index] = Positions[index] + Fractal2._directions[i];
+                      NewPosition[index] = Positions[index] + Fractal2._directions[i];
 
         }
     }
